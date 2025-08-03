@@ -128,8 +128,8 @@ def main():
     st.write("")
 
     try:
-        img_negatif = Image.open("wc n.JPG")
-        img_positif = Image.open("wc p.JPG")
+        img_negatif = Image.open("wc n.jpg")
+        img_positif = Image.open("wc p.jpg")
         
         col1, col2 = st.columns(2)
 
@@ -184,3 +184,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
